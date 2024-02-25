@@ -1,3 +1,8 @@
 
 ’
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×‡·‚ùÿÿÿÿ8îşÀ‰Ş1
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×‡·‚ùÿÿÿÿ8Æò‰Ş1
+
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "courses".(ğÙ«‹ûÿÿÿÿ8Çò‰Ş1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ìò‰Ş1
+]	java:S125"<This block of commented-out lines of code should be removed.(úé²®üÿÿÿÿ8¾úò‰Ş1
