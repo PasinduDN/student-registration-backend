@@ -9,3 +9,5 @@ W
 'src/main/java/edu/test/dto/Student.java,5\8\583ca4e70529db8bb14206712b4cfd70a9b292ca
 V
 &src/main/java/edu/test/dto/Course.java,6\a\6ab7d54bcc0419c5470a88505a0f096b1c9f1c8d
+g
+7src/main/java/edu/test/controller/CourseController.java,8\b\8b79de7db8c93a9772549155675c84f9421beb94
