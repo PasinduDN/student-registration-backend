@@ -1,6 +1,7 @@
-package edu.test.service;
+package edu.test.service.impl;
 
 import edu.test.dto.Course;
+import edu.test.service.CourseService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

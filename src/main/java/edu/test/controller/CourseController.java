@@ -1,7 +1,6 @@
 package edu.test.controller;
 import edu.test.dto.Course;
 import edu.test.service.CourseService;
-import edu.test.service.CourseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
