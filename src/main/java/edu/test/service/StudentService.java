@@ -5,5 +5,7 @@ import edu.test.dto.Student;
 import java.util.ArrayList;
 
 public interface StudentService {
-    ArrayList<Student> getStudent();
+//    ArrayList<Student> getStudent();
+
+    void createStudent (Student student);
 }

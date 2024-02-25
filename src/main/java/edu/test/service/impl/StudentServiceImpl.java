@@ -1,21 +1,37 @@
 package edu.test.service.impl;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.test.dto.Student;
+import edu.test.entity.StudentEntity;
+import edu.test.repository.Studentrepository;
 import edu.test.service.StudentService;
 import lombok.Value;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
 @Service
 public class StudentServiceImpl implements StudentService {
-    @Override
-    public ArrayList<Student> getStudent() {
-        ArrayList<Student> studentList = new ArrayList<>();
-        studentList.add(new Student("Amila","Nuwan","011111111"));
-        studentList.add(new Student("Azt","Lopz","01266555"));
-        studentList.add(new Student("App","Nurz","022154477"));
-        studentList.add(new Student("AmilSpt","Klo","01487555"));
 
-        return studentList;
+    @Autowired
+    Studentrepository studentrepository;
+
+    //For Model To Entity Auto Conversion
+    @Autowired
+    ObjectMapper mapper;
+
+    public void createStudent (Student student){
+
+        //Model To Entity Auto Conversion
+        StudentEntity entity = mapper.convertValue(student, StudentEntity.class);
+
+        //Model To Entity Manual Conversion
+//        StudentEntity entity1 = new StudentEntity();
+//        entity.setFirstName(student.getFirstName());
+//        entity.setLastName(student.getLastName());
+//        entity.setContactNumber(student.getContactNumber());
+
+        //Saving Data
+        studentrepository.save(entity);
     }
 }

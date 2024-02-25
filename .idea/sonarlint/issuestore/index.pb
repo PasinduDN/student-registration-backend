@@ -33,3 +33,5 @@ h
 8src/main/java/edu/test/controller/StudentController.java,4\5\45ccc80c0cdf8253cab91058699e4055ebe4b228
 _
 /src/main/java/edu/test/entity/CourseEntity.java,d\b\db204944efcd29ddad3ec45ddab84ebc26052ab0
+h
+8src/main/java/edu/test/repository/Studentrepository.java,5\c\5c1fbed6a7eced3e6550209b05f79d162470cf01
