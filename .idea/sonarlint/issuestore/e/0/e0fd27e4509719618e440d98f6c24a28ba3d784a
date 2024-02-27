@@ -1,10 +1,9 @@
 
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ñ¾ƒŞ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8—«ş¬Ş1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ò¾ƒŞ1
-X	java:S125"<This block of commented-out lines of code should be removed.(´×²8š†Ş1
-F
-java:S1128")Remove this unused import 'lombok.Value'.(ß­ÅŸ8§İ†Ş1
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¨İ†Ş1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8—«ş¬Ş1
+X	java:S125"<This block of commented-out lines of code should be removed.(š¤õ8åêÿ¬Ş1
+X	java:S125$"<This block of commented-out lines of code should be removed.(´×²8 «ş¬Ş1
+e
+java:S1128"HRemove this unused import 'edu.test.repository.StudentNativeRepository'.(¾Ë»8ÒõõÅŞ1

@@ -1,6 +1,4 @@
 
-S
-#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 P
@@ -11,22 +9,14 @@ V
 &src/main/java/edu/test/dto/Course.java,6\a\6ab7d54bcc0419c5470a88505a0f096b1c9f1c8d
 g
 7src/main/java/edu/test/controller/CourseController.java,8\b\8b79de7db8c93a9772549155675c84f9421beb94
-d
-4src/main/java/edu/test/service/CourseController.java,a\8\a8c43985a58889878c1476a3e8f00ef049e4ab06
 a
 1src/main/java/edu/test/service/CourseService.java,7\3\73173dc1bfb268ffc3fdc38a5628392f4cc5dc07
-e
-5src/main/java/edu/test/service/CourseServiceImpl.java,c\f\cfb40a87e202ff44a09847211650aec9bcc37513
 `
 0src/main/java/edu/test/entity/StudentEntity.java,9\3\93c8425f4e026f09df4d07fab74610f015f2d7db
-b
-2src/main/java/edu/test/impl/CourseServiceImpl.java,c\1\c1b2a04216dcf6e944a8d50e61185bc92f8165b1
 j
 :src/main/java/edu/test/service/impl/CourseServiceImpl.java,5\9\59cbac119873b2c68fd19c215227ef9f18bc8b3f
 b
 2src/main/java/edu/test/service/StudentService.java,f\3\f3cfedf8e0648d569ee62fb087822788009332ac
-g
-7src/main/java/edu/test/service/impl/StudentService.java,f\6\f65649bb0af757fd73fb07ffc0ff89141ce338ae
 k
 ;src/main/java/edu/test/service/impl/StudentServiceImpl.java,e\0\e0fd27e4509719618e440d98f6c24a28ba3d784a
 h
@@ -35,3 +25,9 @@ _
 /src/main/java/edu/test/entity/CourseEntity.java,d\b\db204944efcd29ddad3ec45ddab84ebc26052ab0
 h
 8src/main/java/edu/test/repository/Studentrepository.java,5\c\5c1fbed6a7eced3e6550209b05f79d162470cf01
+n
+>src/main/java/edu/test/repository/StudentNativeRepository.java,0\1\0104b9215c9df77e6f6168b93187e3d04936814a
+w
+Gsrc/main/java/edu/test/repository/impl/StudentNativeRepositoryImpl.java,b\2\b288ea8ea5619b0d3b35ecbc58735ba24a4d2299
+X
+(src/main/java/edu/test/dto/Response.java,1\f\1f7bf94a6612b7e5a36423e9635d4e98c8162d1d
